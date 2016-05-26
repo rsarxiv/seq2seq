@@ -7,7 +7,7 @@ from collections import Counter
 import h5py
 import numpy as np
 
-filepath = '/Users/zhangjun/Desktop/Torch/dataset/LCSTS/DATA/'
+filepath = 'your dataset dir here'
 topN = 5000
 sourceSeqLen = 80
 targetSeqLen = 20
