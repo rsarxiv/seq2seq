@@ -1,9 +1,9 @@
 require 'torch'
 require 'nn'
 require 'rnn'
+require 'hdf5'
 require 'cltorch'
 require 'clnn'
-require 'hdf5'
 
 Summarization = {}
 
