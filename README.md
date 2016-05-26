@@ -4,7 +4,7 @@ The code is a simple implement of the popular deep learning model --- `seq2seq`.
 
 # File
 
-- `preprocessing.py` is used for processing the {% link LCSTS http://icrc.hitsz.edu.cn/Article/show/139.html %} dataset, which aims to solve Chinese short text summarization task. Because of the large size and the copyright, we don't publish it here. If you are interested in it, you can send an application form to get. Also, you can use other datasets instead if you are glad to.
+- `preprocessing.py` is used for processing the [LCSTS](http://icrc.hitsz.edu.cn/Article/show/139.html) dataset, which aims to solve Chinese short text summarization task. Because of the large size and the copyright, we don't publish it here. If you are interested in it, you can send an application form to get. Also, you can use other datasets instead if you are glad to.
 
 You must process dataset before you run the training code,
 
