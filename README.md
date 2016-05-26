@@ -8,7 +8,9 @@ The code is a simple implement of the popular deep learning model --- `seq2seq`.
 
 You must process dataset before you run the training code,
 
-<code>python preprocessing.py</code>
+```sh
+python preprocessing.py
+```
 
 
 - `Summarization.lua` is a wrapper file which contains `Dataset` class and `Seq2Seq` class.
@@ -23,9 +25,15 @@ You can run `th Train.lua` directly to train seq2seq model.
 
 If you want to use GPU, you can run:
 
-<code>th Train.lua --opencl</code>  or
+```sh
+th Train.lua --opencl
+```
 
-<code>th Train.lua --cuda</code>
+or
+
+```sh
+th Train.lua --cuda
+```
 
 # Installing
 
@@ -33,13 +41,25 @@ Before running code, you need to ensure the packages below installed:
  
 - `hdf5`, a file format connect python and torch
 
-For python, <code>pip install h5py</code>,
+For python, 
 
-For torch, <code>luarocks install hdf5</code>
+```sh
+pip install h5py
+```
+
+For torch, 
+
+```sh
+luarocks install hdf5
+```
 
 - `jieba`, a popular Chinese Tokenizer
 
-For python, <code>pip install jieba</code>
+For python, 
+
+```sh
+pip install jieba
+```
 
 - `rnn`, a rnn package for RNN model, like LSTM, GRU etc.
 
@@ -49,15 +69,23 @@ If you need to use cuda or opencl, please install packages below:
 
 - opencl
 
-<code>luarocks install cltorch</code>
+```sh
+luarocks install cltorch
+```
 
-<code>luarocks install clnn</code>
+```sh
+luarocks install clnn
+```
 
 - cuda
 
-<code>luarocks install cutorch</code>
+```sh
+luarocks install cutorch
+```
 
-<code>luarocks install cunn</code>
+```sh
+luarocks install cunn
+```
 
 # Future works
 
